@@ -1,0 +1,57 @@
+# Visual Studio-specific files
+.vs/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.log
+*.cache
+*.ncb
+*.obj
+*.tlb
+*.tlh
+*.tmp
+*.o
+*.so
+*.d
+*.tlog
+*.log
+*.lastbuildstate
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+# NuGet v3's project.json files
+*.nuget.props
+*.nuget.targets
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# Mac OS files
+.DS_Store
+
+# Local configuration files
+appsettings.json
+appsettings.Development.json
+secrets.json
