@@ -1,0 +1,123 @@
+{
+  "name": "H",
+  "tickCap": 10000,
+  "dimension": {
+    "X": 1440,
+    "Y": 960
+  },
+  "cellsize": {
+    "X": 240,
+    "Y": 240
+  },
+  "moverMaxExtent": 155,
+  "producerMaxQueue": 1,
+  "producers": [
+    {
+      "id": "1",
+      "model": "Kuka",
+      "position": {
+        "X": 120,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 38.75,
+        "Y": 38.75
+      }
+    },
+    {
+      "id": "1",
+      "model": "Staubli",
+      "position": {
+        "X": 360,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 38.75,
+        "Y": 766.25
+      }
+    },
+    {
+      "id": "1",
+      "model": "Viper",
+      "position": {
+        "X": 1080,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 1246.25,
+        "Y": 766.25
+      }
+    },
+    {
+      "id": "1",
+      "model": "Manuel",
+      "position": {
+        "X": 1320,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 1246.25,
+        "Y": 38.75
+      },
+      "rect": true
+    }
+  ],
+  "movers": [
+    {
+      "id": 1,
+      "model": "APM4220",
+      "position": {
+        "X": 59.75,
+        "Y": 59.75
+      }
+    },
+    {
+      "id": 2,
+      "model": "APM4220",
+      "position": {
+        "X": 59.75,
+        "Y": 787.25
+      }
+    },
+    {
+      "id": 3,
+      "model": "APM4220",
+      "position": {
+        "X": 1267.25,
+        "Y": 59.75
+      }
+    },
+    {
+      "id": 4,
+      "model": "APM4220",
+      "position": {
+        "X": 1267.25,
+        "Y": 787.25
+      }
+    }
+  ],
+  "forbiddenZones": [
+    {
+      "id": "A0-3",
+      "position": {
+        "X": 240,
+        "Y": 0
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 240
+      }
+    },
+    {
+      "id": "F0-3",
+      "position": {
+        "X": 240,
+        "Y": 720
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 240
+      }
+    }
+  ]
+}

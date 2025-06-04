@@ -1,0 +1,269 @@
+{
+  "name": "8640x4800",
+  "tickCap": 3600000,
+  "dimension": {
+    "X": 8640,
+    "Y": 4800
+  },
+  "cellSize": {
+    "X": 320,
+    "Y": 320
+  },
+  "moverMaxExtent": 235,
+  "producerMaxQueue": 2,
+  "producers": [
+    {
+      "id": 1,
+      "model": "Kuka",
+      "position": {
+        "X": 160,
+        "Y": 480
+      },
+      "processingpos": {
+        "X": 682.5,
+        "Y": 362.5
+      }
+    },
+    {
+      "id": 13,
+      "model": "Kuka",
+      "position": {
+        "X": 160,
+        "Y": 4320
+      },
+      "processingpos": {
+        "X": 682.5,
+        "Y": 4200
+      }
+    },
+    {
+      "id": 1,
+      "model": "Manuel",
+      "position": {
+        "X": 8480,
+        "Y": 480
+      },
+      "processingpos": {
+        "X": 7722.5,
+        "Y": 362.5
+      }
+    },
+    {
+      "id": 13,
+      "model": "Manuel",
+      "position": {
+        "X": 8480,
+        "Y": 4320
+      },
+      "processingpos": {
+        "X": 7722.5,
+        "Y": 4200
+      }
+    }
+  ],
+  "producerGroups": [
+    {
+      "id": 2,
+      "model": "Kuka",
+      "position": {
+        "X": 160,
+        "Y": 800
+      },
+      "processingpos": {
+        "X": 362.5,
+        "Y": 42.5
+      },
+      "dimension": {
+        "X": 320,
+        "Y": 3720
+      }
+    },
+    {
+      "id": 2,
+      "model": "Manuel",
+      "position": {
+        "X": 8480,
+        "Y": 800
+      },
+      "processingpos": {
+        "X": -277.5,
+        "Y": 42.5
+      },
+      "dimension": {
+        "X": 320,
+        "Y": 3720
+      }
+    },
+    {
+      "id": 1,
+      "model": "Viper",
+      "position": {
+        "X": 1440,
+        "Y": 160
+      },
+      "processingpos": {
+        "X": 42.5,
+        "Y": 362.5
+      },
+      "dimension": {
+        "X": 6080,
+        "Y": 320
+      }
+    },
+    {
+      "id": 1,
+      "model": "Staubli",
+      "position": {
+        "X": 1440,
+        "Y": 4640
+      },
+      "processingpos": {
+        "X": 42.5,
+        "Y": -277.5
+      },
+      "dimension": {
+        "X": 6080,
+        "Y": 320
+      }
+    }
+  ],
+  "moverGroups": [
+    {
+      "id": 1,
+      "model": "APM4220",
+      "spacing": 11.3,
+      "position": {
+        "X": 1920,
+        "Y": 1600
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 400
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4221",
+      "spacing": 12.7,
+      "position": {
+        "X": 3200,
+        "Y": 1600
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 450
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4230",
+      "spacing": 15.5,
+      "position": {
+        "X": 4480,
+        "Y": 1600
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 550
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4331",
+      "spacing": 15,
+      "position": {
+        "X": 5760,
+        "Y": 1600
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 550
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4330",
+      "spacing": 15.5,
+      "position": {
+        "X": 1920,
+        "Y": 2560
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 550
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4350",
+      "spacing": 23.5,
+      "position": {
+        "X": 3200,
+        "Y": 2560
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 550
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4550",
+      "spacing": 23.5,
+      "position": {
+        "X": 4480,
+        "Y": 2560
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 550
+      }
+    }
+  ],
+  "forbiddenZones": [
+    {
+      "id": "A0-3",
+      "position": {
+        "X": 0,
+        "Y": 0
+      },
+      "dimension": {
+        "X": 1280,
+        "Y": 320
+      }
+    },
+    {
+      "id": "A23-26",
+      "position": {
+        "X": 7360,
+        "Y": 0
+      },
+      "dimension": {
+        "X": 1280,
+        "Y": 320
+      }
+    },
+    {
+      "id": "O0-3",
+      "position": {
+        "X": 0,
+        "Y": 4480
+      },
+      "dimension": {
+        "X": 1280,
+        "Y": 320
+      }
+    },
+    {
+      "id": "O23-26",
+      "position": {
+        "X": 7360,
+        "Y": 4480
+      },
+      "dimension": {
+        "X": 1280,
+        "Y": 320
+      }
+    }
+  ]
+}

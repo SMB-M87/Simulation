@@ -1,0 +1,290 @@
+{
+  "name": "4320x2400",
+  "tickCap": 3600000,
+  "dimension": {
+    "X": 4320,
+    "Y": 2400
+  },
+  "cellSize": {
+    "X": 240,
+    "Y": 240
+  },
+  "moverMaxExtent": 155,
+  "producerMaxQueue": 2,
+  "producers": [
+    {
+      "id": "1",
+      "model": "Viper",
+      "position": {
+        "X": 120,
+        "Y": 120
+      },
+      "processingPos": {
+        "X": 243,
+        "Y": 243
+      }
+    },
+    {
+      "id": "2",
+      "model": "Viper",
+      "position": {
+        "X": 1800,
+        "Y": 360
+      },
+      "processingPos": {
+        "X": 1522,
+        "Y": 483
+      }
+    },
+    {
+      "id": "3",
+      "model": "Viper",
+      "position": {
+        "X": 360,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 483,
+        "Y": 802
+      }
+    },
+    {
+      "id": "4",
+      "model": "Viper",
+      "position": {
+        "X": 1320,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 1042,
+        "Y": 802
+      }
+    },
+    {
+      "id": "1",
+      "model": "Manuel",
+      "position": {
+        "X": 4200,
+        "Y": 120
+      },
+      "processingPos": {
+        "X": 3922,
+        "Y": 243
+      },
+      "rect": true
+    },
+    {
+      "id": "2",
+      "model": "Manuel",
+      "position": {
+        "X": 2520,
+        "Y": 360
+      },
+      "processingPos": {
+        "X": 2643,
+        "Y": 483
+      },
+      "rect": true
+    },
+    {
+      "id": "3",
+      "model": "Manuel",
+      "position": {
+        "X": 3960,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 3682,
+        "Y": 802
+      },
+      "rect": true
+    },
+    {
+      "id": "4",
+      "model": "Manuel",
+      "position": {
+        "X": 3000,
+        "Y": 1080
+      },
+      "processingPos": {
+        "X": 3123,
+        "Y": 802
+      },
+      "rect": true
+    },
+    {
+      "id": "1",
+      "model": "Kuka",
+      "position": {
+        "X": 120,
+        "Y": 2280
+      },
+      "processingPos": {
+        "X": 243,
+        "Y": 2002
+      }
+    },
+    {
+      "id": "2",
+      "model": "Kuka",
+      "position": {
+        "X": 1800,
+        "Y": 2040
+      },
+      "processingPos": {
+        "X": 1522,
+        "Y": 1762
+      }
+    },
+    {
+      "id": "3",
+      "model": "Kuka",
+      "position": {
+        "X": 600,
+        "Y": 1560
+      },
+      "processingPos": {
+        "X": 723,
+        "Y": 1282
+      }
+    },
+    {
+      "id": "4",
+      "model": "Kuka",
+      "position": {
+        "X": 2040,
+        "Y": 1320
+      },
+      "processingPos": {
+        "X": 1762,
+        "Y": 1042
+      }
+    },
+    {
+      "id": "5",
+      "model": "Kuka",
+      "position": {
+        "X": 1080,
+        "Y": 1800
+      },
+      "processingPos": {
+        "X": 802,
+        "Y": 1923
+      }
+    },
+    {
+      "id": "6",
+      "model": "Kuka",
+      "position": {
+        "X": 3240,
+        "Y": 2040
+      },
+      "processingPos": {
+        "X": 2962,
+        "Y": 1762
+      }
+    },
+    {
+      "id": "1",
+      "model": "Staubli",
+      "position": {
+        "X": 4200,
+        "Y": 2280
+      },
+      "processingPos": {
+        "X": 3922,
+        "Y": 2002
+      }
+    },
+    {
+      "id": "2",
+      "model": "Staubli",
+      "position": {
+        "X": 2520,
+        "Y": 2040
+      },
+      "processingPos": {
+        "X": 2242,
+        "Y": 1762
+      }
+    },
+    {
+      "id": "3",
+      "model": "Staubli",
+      "position": {
+        "X": 3480,
+        "Y": 1320
+      },
+      "processingPos": {
+        "X": 3603,
+        "Y": 1443
+      }
+    },
+    {
+      "id": "4",
+      "model": "Staubli",
+      "position": {
+        "X": 2520,
+        "Y": 1320
+      },
+      "processingPos": {
+        "X": 2643,
+        "Y": 1443
+      }
+    }
+  ],
+  "moverGroups": [
+    {
+      "id": 1,
+      "model": "APM4220",
+      "spacing": 5,
+      "position": {
+        "X": 490,
+        "Y": 5
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 120
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4230",
+      "spacing": 5,
+      "position": {
+        "X": 2882.5,
+        "Y": 5
+      },
+      "dimension": {
+        "X": 960,
+        "Y": 160
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4330",
+      "spacing": 10,
+      "position": {
+        "X": 470,
+        "Y": 2240
+      },
+      "dimension": {
+        "X": 1000,
+        "Y": 240
+      }
+    },
+    {
+      "id": 1,
+      "model": "APM4221",
+      "spacing": 7.5,
+      "position": {
+        "X": 2892.5,
+        "Y": 2268
+      },
+      "dimension": {
+        "X": 950,
+        "Y": 130
+      }
+    }
+  ]
+}

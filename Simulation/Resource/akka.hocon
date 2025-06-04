@@ -1,0 +1,7 @@
+akka {
+  loglevel = DEBUG
+  stdout-loglevel = OFF
+  log-config-on-start = off
+
+  loggers = ["Simulation.Util.LoggerActor, Simulation"]
+}

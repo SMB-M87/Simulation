@@ -1,0 +1,73 @@
+﻿namespace Simulation.UserInterface
+{
+    internal class SliderText(
+        string id,
+        Text text,
+        Slider slider
+    ) : UIEventComponent($"{id}_{text.Content}_slidertext")
+    {
+        /// <summary>
+        /// Text label component associated with the toggle.
+        /// </summary>
+        internal Text Text { get; private set; } = text;
+
+        /// <summary>
+        /// Slider component used to represent and control the toggle state.
+        /// </summary>
+        internal Slider Slider { get; private set; } = slider;
+
+        internal override bool LeftClick(float X, float Y)
+        {
+            return Slider.LeftClick(X, Y);
+        }
+
+        internal override void OnLeftClick()
+        {
+            base.OnLeftClick();
+
+        }
+
+        internal override void Hover(float X, float Y)
+        {
+            Slider.Hover(X, Y);
+        }
+
+        internal override void OnHover()
+        {
+            base.OnHover();
+        }
+
+        internal override bool LeftRelease()
+        {
+            return Slider.LeftRelease();
+        }
+
+        internal override void OnLeftRelease()
+        {
+            base.OnLeftRelease();
+        }
+
+        internal override void UpdateViewport(float scale)
+        {
+            Text.UpdateViewport(scale);
+            Slider.UpdateViewport(scale);
+        }
+
+        internal override void Render()
+        {
+            Text.Render();
+            Slider.Render();
+        }
+
+        internal override void Reset()
+        {
+            Slider.Reset();
+        }
+
+        internal override void Remove()
+        {
+            Text.Remove();
+            Slider.Remove();
+        }
+    }
+}
