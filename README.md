@@ -1,4 +1,4 @@
-# Industry 4.0 Simulation Framework
+# Industry 4.0 Simulation
 
 This project simulates a modular, factory environment inspired by Industry 4.0 principles. It includes autonomous transport units, configurable production stations and control via UI. The simulation emphasizes configurability, traceability and runtime introspection. ([Demo](https://youtu.be/Y9loZ_bbvng))
 
